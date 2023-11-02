@@ -1,4 +1,4 @@
-package org.example;
+package org.example.scedule;
 
 public class Schedule {
     private int id;

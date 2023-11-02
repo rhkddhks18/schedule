@@ -1,11 +1,12 @@
 package org.example;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
+import org.example.db.DBConnection;
+import org.example.scedule.ScheduleController;
 
 public class Main {
     public static void main(String[] args) {
-        new ScheduleController().choice();
+
+        new App().run();
+
     }
 }

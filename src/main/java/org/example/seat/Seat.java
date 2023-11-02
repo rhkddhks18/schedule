@@ -1,10 +1,10 @@
-package org.example;
+package org.example.seat;
 
 public class Seat {
     private int id;
     private String seatX;  // 행 (알파벳)
     private String seatY;  // 열
-    private boolean reserved; // 좌석 예약 상태
+    private boolean reserved;
 
     public Seat(int id, String seatX, String seatY, boolean reserved) {
         this.id = id;
@@ -18,8 +18,10 @@ public class Seat {
         return reserved;
     }
 
-    public void reserve() {
+    public boolean reserve() {
         reserved = true;
+
+        return this.reserved;
     }
 
 }

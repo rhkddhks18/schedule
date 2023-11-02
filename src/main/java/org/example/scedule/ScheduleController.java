@@ -1,4 +1,6 @@
-package org.example;
+package org.example.scedule;
+
+import org.example.seat.SeatController;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -38,6 +40,6 @@ public class ScheduleController {
                 System.out.println("올바른 선택이 아닙니다.");
             }
         }
-        new SeatController().seat();
+//        new SeatController().seat();
     }
 }

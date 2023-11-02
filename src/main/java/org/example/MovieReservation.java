@@ -9,11 +9,4 @@ public class MovieReservation {
         this.isComplete = isComplete;
     }
 
-    public void completeReservation() {
-        isComplete = "Y";
-    }
-
-    public void cancelReservation() {
-        isComplete = "N";
-    }
 }
